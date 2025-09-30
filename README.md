@@ -1,6 +1,6 @@
-# data-lifecycle-service
+# Client Management System
 This microservice is responsible for managing the data lifecycle of client receipts stored in Azure Blob Storage
-# 📦 Microservice 21: Data Lifecycle Management Service
+# 📦 Microservice 21: Client Data Lifecycle Management Service
 
 This microservice is responsible for managing the **data lifecycle** of client receipts stored in **Azure Blob Storage**. It performs daily scans to **auto-archive or delete files** based on each client’s retention policy. It also sends **email alerts before deletion** using a mock or real email service.
 
